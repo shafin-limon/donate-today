@@ -64,13 +64,24 @@ body {
 
 .donate-amounts {
     margin-right: 50px;
-    background-color: #B3B3B3;
+    background-color: #d6cdcd;
     padding: 38px 25px;
     margin-bottom: 20px;
 }
 
-..donate-amounts h4 {
-    font-size: 30px;
+.donate-amounts h4 {
+    font-size: 20px;
+    color: #707070;
+}
+
+.active {
+    background-color: #FFEEEE;
+    border: 1px solid tomato;
+
+}
+
+.active h4 {
+    color: tomato;
 }
 
 .donet-system input {
