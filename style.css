@@ -9,7 +9,7 @@ body {
 .banner {
     background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 700px;
     background-size: cover;
 }
 
@@ -39,4 +39,47 @@ body {
     border-radius: 5px;
     display: inline-block;
     margin-top: 15px;
+}
+
+.donet-system {
+    text-align: center;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.donet-system h2 {
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.donet-system p {
+    margin-bottom: 50px;
+}
+
+.flexiable-container {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amounts {
+    margin-right: 50px;
+    background-color: #B3B3B3;
+    padding: 38px 25px;
+    margin-bottom: 20px;
+}
+
+..donate-amounts h4 {
+    font-size: 30px;
+}
+
+.donet-system input {
+    width: 500px;
+    border-width: 0 0 1px;
+    border-color: 1px solid #B3B3B3;
+    padding-bottom: 5px;
+}
+
+.donet-system input::placeholder {
+    text-align: center;
 }
