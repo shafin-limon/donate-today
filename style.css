@@ -108,22 +108,22 @@ body {
 }
 
 .donate-plan-box {
-    background-color: tomato;
     padding: 100px 20px;
     margin-right: 10px;
     text-align: left;
+    width: 33%;
 }
 
 .color1 {
-    background-color: #4F9DA6;
+    background-color: rgba(80, 29, 20, 0.233);
 }
 
 .color2 {
-    background-color: #FF5959;
+    background-color: rgba(211, 73, 49, 0.233);
 }
 
 .color3 {
-    background-color: #f5f0e367;
+    background-color: rgba(49, 6, 77, 0.233);
 }
 
 .m-1 {
@@ -184,7 +184,8 @@ form {
     width: 400px;
     margin: 0 auto;
     background-color: #FFF4D6;
-    padding: 100px;
+    padding: 50px 100px;
+    text-align: center;
 }
 
 .email {
